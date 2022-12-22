@@ -9,6 +9,46 @@ If the calibration result achieved, the service provider could automatically wit
 
 To prevent unauthorized withdrawl, the application has been protected by authorization pin and public hash key address the service provider/ beneficiary.
 
+## Application Execution
+This Application run on Plutus Background Environment and to perform simulation open the Plutus Test Background Environment through website https://playground.plutus.iohkdev.io/.
+
+Copy and paste the plutus program and executed the files.
+
+Perform Simulation using Positive and Negative Test
+
+
+## Application Positive Test
+To simulate the Reward Application can go through positive test which are follow condition :
+
+a. Validation Zero Point Calibration Value shall be the same with Target Baseline Zero Calibration On Specification, and
+
+b. Validation Span Point Calibration Value shall be the same with Target Baseline Span Calibration On Specification, and
+
+b. Validation Percentage Accuracy Calibration Value shall be the same or below Target Baseline Percentage Accuracy Calibration On Specification, and
+
+b. Validation Percentage Repeatability Calibration Value shall be the same or below Target Baseline Percentage Repeatability Calibration On Specification, and
+
+b. Address Service Provider Beneficiary shall be the same with target Service Provider Beneficiary, and
+
+c. Pin Reward Service Charges Withdrawl Authorization to release the Service Charges Rewards shall be the same
+
+
+## Application Negative Test
+To simulate the Reward Application can go through negative test which are follow condition :
+
+a. Validation Zero Point Calibration Value not the same with Target Baseline Zero Calibration On Specification, and
+
+b. Validation Span Point Calibration Value not the same with Target Baseline Span Calibration On Specification, and
+
+b. Validation Percentage Accuracy Calibration Value not the same or above Target Baseline Percentage Accuracy Calibration On Specification, and
+
+b. Validation Percentage Repeatability Calibration Value not the same or above Target Baseline Percentage Repeatability Calibration On Specification, and
+
+b. Address Service Provider Beneficiary not the same with target Service Provider Beneficiary, and
+
+c. Pin Reward Service Charges Withdrawl Authorization to release the Service Charges Rewards not the same
+
+
 #### Figure 1 Positive Simulation Test - Calibration Service Charges Payment
 
 ![CalPositiveTest1](https://user-images.githubusercontent.com/115913889/209138758-c9c0a7c1-fc17-42de-b129-893f86def444.png)
