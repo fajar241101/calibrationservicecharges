@@ -7,4 +7,13 @@ the calibration on spesification target with calibration validation value.
 If the calibration result achieved, the service provider could automatically withdrawn the service fee.
 To prevent unauthorized withdrawl, the application has been protected by authorization pin and public hash key address the service provider/ beneficiary.
 
+![CalPositiveTest1](https://user-images.githubusercontent.com/115913889/209138758-c9c0a7c1-fc17-42de-b129-893f86def444.png)
 
+
+![CalPositiveTest2](https://user-images.githubusercontent.com/115913889/209138795-6f3c5d85-7954-46d2-a279-3057d963f342.png)
+
+
+![CalNegativeTest1](https://user-images.githubusercontent.com/115913889/209138842-633412bf-2b69-4a60-88ea-4a1a54a93d08.png)
+
+
+![CalNegativeTest2](https://user-images.githubusercontent.com/115913889/209138872-a592e10c-4b23-458e-a147-ad8e44a2c603.png)
