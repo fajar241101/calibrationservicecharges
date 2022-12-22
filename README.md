@@ -1,4 +1,5 @@
 ## Calibration Service Charges Payment Portals
+
 This Application is Service Charges Payment Portal for Instrument Calibration Activity
 
 The idea of the program development is current conditions Instrument Calibration Service Provider worked based on centralized database which are mostly working on manual validation.
@@ -24,13 +25,13 @@ a. Validation Zero Point Calibration Value shall be the same with Target Baselin
 
 b. Validation Span Point Calibration Value shall be the same with Target Baseline Span Calibration On Specification, and
 
-b. Validation Percentage Accuracy Calibration Value shall be the same or below Target Baseline Percentage Accuracy Calibration On Specification, and
+c. Validation Percentage Accuracy Calibration Value shall be the same or below Target Baseline Percentage Accuracy Calibration On Specification, and
 
-b. Validation Percentage Repeatability Calibration Value shall be the same or below Target Baseline Percentage Repeatability Calibration On Specification, and
+d. Validation Percentage Repeatability Calibration Value shall be the same or below Target Baseline Percentage Repeatability Calibration On Specification, and
 
-b. Address Service Provider Beneficiary shall be the same with target Service Provider Beneficiary, and
+e. Address Service Provider Beneficiary shall be the same with target Service Provider Beneficiary, and
 
-c. Pin Reward Service Charges Withdrawl Authorization to release the Service Charges Rewards shall be the same
+f. Pin Reward Service Charges Withdrawl Authorization to release the Service Charges Rewards shall be the same
 
 
 ## Application Negative Test
@@ -40,13 +41,13 @@ a. Validation Zero Point Calibration Value not the same with Target Baseline Zer
 
 b. Validation Span Point Calibration Value not the same with Target Baseline Span Calibration On Specification, and
 
-b. Validation Percentage Accuracy Calibration Value not the same or above Target Baseline Percentage Accuracy Calibration On Specification, and
+c. Validation Percentage Accuracy Calibration Value not the same or above Target Baseline Percentage Accuracy Calibration On Specification, and
 
-b. Validation Percentage Repeatability Calibration Value not the same or above Target Baseline Percentage Repeatability Calibration On Specification, and
+d. Validation Percentage Repeatability Calibration Value not the same or above Target Baseline Percentage Repeatability Calibration On Specification, and
 
-b. Address Service Provider Beneficiary not the same with target Service Provider Beneficiary, and
+e. Address Service Provider Beneficiary not the same with target Service Provider Beneficiary, and
 
-c. Pin Reward Service Charges Withdrawl Authorization to release the Service Charges Rewards not the same
+f. Pin Reward Service Charges Withdrawl Authorization to release the Service Charges Rewards not the same
 
 
 #### Figure 1 Positive Simulation Test - Calibration Service Charges Payment
