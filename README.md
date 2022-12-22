@@ -13,6 +13,8 @@ To prevent unauthorized withdrawl, the application has been protected by authori
 ## Application Execution
 This Application run on Plutus Background Environment and to perform simulation open the Plutus Test Background Environment through website https://playground.plutus.iohkdev.io/.
 
+Open the file "InstrumentCalibrationPaymentPortal.hs" 
+
 Copy and paste the plutus program and executed the files.
 
 Perform Simulation using Positive and Negative Test
